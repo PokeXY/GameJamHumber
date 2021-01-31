@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D72358F2-F32C-B546-C77F-E412A45EEFAE}</ProjectGuid>
+    <ProjectGuid>{1FF8EA32-BDC7-9CDF-B717-AD4C1E1E6652}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,13 +53,15 @@
     <UnityVersion>2020.2.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Patrol1.cs" />
     <Compile Include="Assets\Player_Movement.cs" />
+    <Compile Include="Assets\GameOverSceneSwitch.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\Player_Detect.cs" />
+    <Compile Include="Assets\SceneChange.cs" />
     <Compile Include="Assets\Camera_Follow.cs" />
     <Compile Include="Assets\Explosion.cs" />
     <Compile Include="Assets\Shooting.cs" />
-    <Compile Include="Assets\Patrol1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
